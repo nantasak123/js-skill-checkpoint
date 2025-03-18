@@ -11,3 +11,5 @@ const secondProductList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+let mergProducelist = [...firstProductList,...secondProductList]
+console.log(mergProducelist)

@@ -2,6 +2,13 @@
 
 function filterInStockProducts(products) {
   // เริ่มเขียนโค้ดตรงนี้
+  let remainProduce = []
+  for(let i in products){
+    if(products[i].quantity != 0){
+      remainProduce.push(products[i])
+    }
+  }
+  return remainProduce
 }
 
 // ตัวอย่างการใช้งาน
